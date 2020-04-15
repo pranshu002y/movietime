@@ -1,0 +1,70 @@
+body
+{
+	background-image: url("img/m1.jpg")
+}
+h1
+{
+	color:white;
+	text-align: center;
+}
+.nav
+{
+	font-size:30px; 
+	background-color:black;
+	width:1520px;
+	height:40px;
+	text-align:center;
+	margin-top:00px;
+
+}
+.active
+{
+	background-color:black;
+	color:white;
+}
+.nav a:hover
+{
+	background-color:grey;
+	color:white;
+}
+marquee
+{
+	height:400px;
+	
+}
+.column
+{
+	float:left;
+	color:white;
+	width:50%;
+}
+.row:after
+{
+	content:"";
+	display:table;
+	clear:both;
+}
+button
+{
+	background-color:black;
+	border:none;
+	color:white;
+	padding:15px;
+	text-align:center;
+	cursor:pointer;
+}
+form
+{
+	color:white;
+	background-color:black;
+}
+legend
+{
+	color:white;
+	background-color:black;
+}
+fieldset
+{
+	color:white;
+	background-color:black;  
+}
